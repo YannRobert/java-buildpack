@@ -1,5 +1,5 @@
 # Cloud Foundry Java Buildpack
-# Copyright 2014-2015 the original author or authors.
+# Copyright (c) 2015 the original author or authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# JAVA_OPTS configuration
+# Configuration for the Dynatrace framework
 ---
-from_environment: true
-java_opts:
+version: 5.3.+
+repository_root: ""
